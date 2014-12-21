@@ -50,7 +50,7 @@ public class ShortcutDataStore {
   }
 
   public func load() {
-
+    items = [Shortcut]()
   }
 
   private func ensureItemsSetup() {

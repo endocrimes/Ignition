@@ -26,4 +26,8 @@ class ShortcutDataStoreTests: XCTestCase {
   func testDataStoreIsNotNil() {
     XCTAssertNotNil(sut, "The data store cannot be nil")
   }
+
+  func testDataStoreReturnsEmptyArrayForAllItems() {
+    XCTAssertEqual(sut.allItems().count, 0)
+  }
 }
