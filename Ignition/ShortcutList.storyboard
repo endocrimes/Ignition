@@ -22,7 +22,7 @@
             </objects>
             <point key="canvasLocation" x="609" y="670"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Shortcuts-->
         <scene sceneID="DQl-jc-513">
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="6c5-ho-SYP" sceneMemberID="viewController">
@@ -46,7 +46,7 @@
                             <outlet property="delegate" destination="6c5-ho-SYP" id="hcb-aH-Q0v"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="nzC-g3-Lel"/>
+                    <navigationItem key="navigationItem" title="Shortcuts" id="nzC-g3-Lel"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u9W-pt-FMc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
