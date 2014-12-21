@@ -20,6 +20,9 @@ public func == (lhs: Shortcut, rhs: Shortcut) -> Bool {
 public class ShortcutDataStore {
   private var items: [Shortcut]?
 
+  public init() {
+  }
+
   public func allItems() -> [Shortcut] {
     return [Shortcut]()
   }

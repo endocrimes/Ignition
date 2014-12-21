@@ -8,17 +8,22 @@
 
 import UIKit
 import XCTest
+import Ignition
 
 class ShortcutDataStoreTests: XCTestCase {
+  var sut: ShortcutDataStore!
+
   override func setUp() {
     super.setUp()
+
+    sut = ShortcutDataStore()
   }
 
   override func tearDown() {
     super.tearDown()
   }
 
-  func testDataStore() {
-
+  func testDataStoreIsNotNil() {
+    XCTAssertNotNil(sut, "The data store cannot be nil")
   }
 }
