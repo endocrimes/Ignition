@@ -9,6 +9,18 @@
 import UIKit
 
 class Colours {
+  class func primaryColor() -> UIColor {
+    return fireRedColor()
+  }
+
+  class func accentColor() -> UIColor {
+    return UIColor.blackColor()
+  }
+
+  class func backgroundColor() -> UIColor {
+    return UIColor.whiteColor()
+  }
+
   class func fireRedColor() -> UIColor {
     return UIColor(
       red: 255.0,
