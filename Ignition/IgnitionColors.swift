@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIColor {
+class Colours {
   class func fireRedColor() -> UIColor {
     return UIColor(
       red: 255.0,

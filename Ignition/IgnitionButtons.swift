@@ -26,8 +26,8 @@ class IgnitionButton: UIButton {
 
   func setup() {
     titleEdgeInsets = UIEdgeInsets(top: 5, left: 10, bottom: 5, right: 10)
-    setTitleColor(UIColor.fireRedColor(), forState: .Normal)
-    layer.borderColor = UIColor.fireRedColor().CGColor
+    setTitleColor(Colours.fireRedColor(), forState: .Normal)
+    layer.borderColor = Colours.fireRedColor().CGColor
   }
 }
 
