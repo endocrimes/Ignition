@@ -25,6 +25,7 @@
 		65C7C3D51A34B0BA00D4539A /* UIView+RemoveSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C7C3D41A34B0BA00D4539A /* UIView+RemoveSubviews.swift */; };
 		65C7C3D81A34B3A300D4539A /* ShortcutDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C7C3D71A34B3A300D4539A /* ShortcutDataStore.swift */; };
 		65FAAD9A1A46C8330090DA18 /* ShortcutDataStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FAAD991A46C8330090DA18 /* ShortcutDataStoreTests.swift */; };
+		65FAAD9C1A46C9D30090DA18 /* ShortcutList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FAAD9B1A46C9D30090DA18 /* ShortcutList.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		65C7C3D41A34B0BA00D4539A /* UIView+RemoveSubviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+RemoveSubviews.swift"; sourceTree = "<group>"; };
 		65C7C3D71A34B3A300D4539A /* ShortcutDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortcutDataStore.swift; sourceTree = "<group>"; };
 		65FAAD991A46C8330090DA18 /* ShortcutDataStoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortcutDataStoreTests.swift; sourceTree = "<group>"; };
+		65FAAD9B1A46C9D30090DA18 /* ShortcutList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ShortcutList.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +256,7 @@
 		65C7C3C71A34ABC700D4539A /* Shortcut Listings */ = {
 			isa = PBXGroup;
 			children = (
+				65FAAD9B1A46C9D30090DA18 /* ShortcutList.storyboard */,
 			);
 			name = "Shortcut Listings";
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 			files = (
 				6594E0961A33ACEA008F5746 /* LaunchScreen.xib in Resources */,
 				65C7C3D01A34AE9F00D4539A /* NewShortcutComposer.storyboard in Resources */,
+				65FAAD9C1A46C9D30090DA18 /* ShortcutList.storyboard in Resources */,
 				6594E0931A33ACEA008F5746 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
