@@ -1,0 +1,5 @@
+language: swift
+before_install:
+  - gem install xcpretty
+script:
+  - xcodebuild -project Ignition.xcodeproj -scheme Ignition test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
