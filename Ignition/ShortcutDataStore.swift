@@ -24,18 +24,41 @@ public class ShortcutDataStore {
   }
 
   public func allItems() -> [Shortcut] {
-    return [Shortcut]()
+    ensureItemsSetup()
+
+    return items!
   }
 
   public func itemsByApplyingFilter(filterClosure: (Shortcut) -> Bool) -> [Shortcut] {
-    return allItems().filter(filterClosure)
+    ensureItemsSetup()
+
+    return items!.filter(filterClosure)
   }
 
   public func addItem(shortcut: Shortcut) {
+    ensureItemsSetup()
+
     items?.append(shortcut)
   }
 
   public func removeItem(shortcut: Shortcut) {
-    items = items?.filter({ return $0 != shortcut })
+    items = allItems().filter({ return $0 != shortcut })
+  }
+
+  public func save() {
+
+  }
+
+  public func load() {
+
+  }
+
+  private func ensureItemsSetup() {
+    switch items {
+    case .None:
+      load()
+    case .Some(_):
+      println("Items are already loaded")
+    }
   }
 }
