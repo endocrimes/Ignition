@@ -2,20 +2,22 @@
 //  ShortcutDataStore.swift
 //  Ignition
 //
-//  Created by  Danielle Lancashireon 07/12/2014.
+//  Created by Danielle Lancashire on 07/12/2014.
 //  Copyright (c) 2014 Rocket Apps. All rights reserved.
 //
 
 import Foundation
 
-
 public class Shortcut: Equatable {
+  public var title: String?
+  public var urlScheme: String?
+  public var creationDate: NSDate?
+  public var updatedDate: NSDate?
 }
 
 public func == (lhs: Shortcut, rhs: Shortcut) -> Bool {
   return false
 }
-
 
 public class ShortcutDataStore {
   private var items: [Shortcut]?
